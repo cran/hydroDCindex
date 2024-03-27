@@ -1,0 +1,15 @@
+5d0b83876fa7801d6dae58914395e4e7 *DESCRIPTION
+4998b5c5e1db179aad2a1c0f85cf51ed *NAMESPACE
+a02434fdc5ed821ebefee5c25c57fb52 *R/Q_obs.R
+d05e7aa6a8cd7759100d2d1aa0806d09 *R/Q_sim.R
+a3b9f0c0b0acbd900e20a5196fe11fd1 *R/hydroDCindex.R
+a41657c0eb31a8d6d5025c9595b6feb8 *build/vignette.rds
+274316384ee01f0c6fa8d6b9476f5091 *data/Q_obs.rda
+526bf14fca6833400952566ef79c40fd *data/Q_sim.rda
+69ccd467bc00d76d000c1297c635bbbd *inst/doc/hydroDC_Index.R
+8ff7634da1590749013e081ab79f2f46 *inst/doc/hydroDC_Index.Rmd
+67642f99715cddd3d2458f2e44ec1da2 *inst/doc/hydroDC_Index.html
+295b13367bdaf1a09e5ad97e023e2a5a *man/Q_obs.Rd
+471c0c15e0a2f40cb1985caebc50b3c3 *man/Q_sim.Rd
+9a31cf1c6b2dee8d553721040c832f37 *man/hydroDC_Index.Rd
+8ff7634da1590749013e081ab79f2f46 *vignettes/hydroDC_Index.Rmd

@@ -1,0 +1,43 @@
+---
+title: "Flow Duration Curve Indexes"
+author: "Alonso Arriagadada M.  <alonso.arriagada@usach.cl>"
+date: "13-06-2022"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Flow Duration Curve Indexes}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+R package for compute Duration Curve Hydrological Model Indexes based on Yilmaz (Yilmaz et al., 2008) methodology. It includes duration curve plot and scatter plot to evaluate fit of daily flow series modeled series.
+
+## Requirements
+Dependencies: stats, hydroGOF
+
+## Installation
+You can install the development version of hydroDCindex from GitHub with this R command:
+```{r setup,eval = FALSE}
+# install.packages("remotes")
+remotes::install_github("Alobondo/hydroDCindex")
+library(hydroDCindex)
+```
+
+## Usage
+Functions | Description |
+--- | --- |
+```hydroDC_Index(Q_obs, Q_sim, c_opt)``` | Compute Duration Curve Hydrological Model Indexes. |
+```Q_obs``` | Column with daily observed flows. |
+```Q_sim``` | Column with daily simulates flows. |
+```c_opt``` | Results, default 1 for indexes, 2 for duration curve values, 3 for DC plot and 4 for scatter plot. |
+
+```hydroDCindex::Q_obs``` Example containing observed flows.
+
+```hydroDCindex::Q_sim``` Example containing simulated flows.
+
